@@ -94,10 +94,7 @@ body {
     margin-left: 20px;
     max-height: 600px;
     border-radius: .8rem;
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
-
 }
 
 .aside1 .tags {
@@ -138,8 +135,6 @@ body {
     display: block;
     text-decoration: none;
     padding: 0 10px;
-
-    
 }
 
 .footer .the-footer li {
@@ -179,6 +174,9 @@ ul li a:hover {
 
     color: rgb(248, 147, 29);
     
+}
+.active { 
+    color: rgb(248, 147, 29);
 }
 
 .topbutton {
