@@ -12,7 +12,7 @@ $headers = "From: noreply@storyo.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
-//redirect
+//redirect to thankyou page
 header("Location:thankyou.html");
 
 

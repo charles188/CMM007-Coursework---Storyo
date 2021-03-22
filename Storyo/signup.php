@@ -4,7 +4,7 @@ include("assets/dbConnect.php");
 $firstname 		= $_POST['fname'];
 $lastname 		= $_POST['lname'];
 $email 			= $_POST['email'];
-$password 		= MD5($_POST['password']); //encrypt password
+$password 		= MD5($_POST['password']); //password encription
 $profession 	= $_POST['prof'];
 $address 		= $_POST['address'];
 $country		= $_POST['country'];

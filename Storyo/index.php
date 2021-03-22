@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-//logging out
+//log out
 if (isset($_POST['action']) and $_POST['action'] == 'logout'){
     session_unset();
     header('Location: .' );
@@ -21,7 +21,7 @@ if (isset($_POST['action']) and $_POST['action'] == 'logout'){
   if (isset($_SESSION['email'])) { 
       $greeting = $welcome.', '.$_SESSION['firstname'];
   }
-//Get started
+//Get started button
 if(isset($_GET['getstarted'])){
   include 'signup.html';
   exit;

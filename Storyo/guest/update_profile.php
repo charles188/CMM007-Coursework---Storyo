@@ -28,7 +28,7 @@
            <li><a href="../about.html">Our Story</a></li>
          </ul>
        </div>
-    </nav>
+    </nav> <!-- The Navigation bar -->
   </header>
 
     <div class="story-tell-profile" style="margin: 0 auto; width: 1000px; margin-top: 50px;">
@@ -36,7 +36,7 @@
         <div class="container">
             <div class="main-body">
                 
-                  <!-- /sign up -->
+                  <!-- update guest profile -->
             
                   <div class="row">
                     <div class="col-6 card" style="padding: 30px; align-items: center; max-width: 450px; margin-left: 50px;"> 
@@ -142,7 +142,7 @@
                           </form>
                     </div>
 
-                  </div> <!-- /sign up -->
+                  </div> <!-- update guest profile -->
                     
                   </div>
                 </div>
@@ -151,10 +151,9 @@
     </div>
    <div class="footer2">
 
+    <!-- the footer -->
     <footer class="text-center text-white " style="background-color: rgb(49, 49, 49); margin-top: 50px;">
-        <!-- Grid container -->
 
-        <!-- Grid container -->
       
         <!-- Copyright -->
         <div class="text-center p-3">
@@ -170,7 +169,7 @@
           <a class="text-white" href="../about.html">Charles Odum | Intranet Systems Development</a>
         </div>
         <!-- Copyright -->
-      </footer>
+      </footer> <!-- the footer -->
 
 </div>
 

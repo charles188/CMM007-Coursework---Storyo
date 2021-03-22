@@ -1,10 +1,4 @@
 <?php
-/**
- * 
- * User: 
- * Date: 23/03/2018
- * Time: 08:26
- */
 
 $servername = "localhost";
 $dbname='storyo';

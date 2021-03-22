@@ -26,7 +26,7 @@
            <li><a href="about.html">Our Story</a></li>
          </ul>
        </div>
-    </nav>
+    </nav> <!-- The Navigation bar -->
   </header>
 
     <div class="story-tell-profile" style="margin: 0 auto; width: 1000px; margin-top: 50px;">
@@ -119,10 +119,9 @@
     </div>
    <div class="footer2">
 
+        <!-- the footer -->
     <footer class="text-center text-white " style="background-color: rgb(49, 49, 49); margin-top: 50px;">
-        <!-- Grid container -->
 
-        <!-- Grid container -->
       
         <!-- Copyright -->
         <div class="text-center p-3">
@@ -138,7 +137,7 @@
           <a class="text-white" href="ourstory.html">Charles Odum</a>
         </div>
         <!-- Copyright -->
-      </footer>
+      </footer> <!-- the footer -->
 
     
 

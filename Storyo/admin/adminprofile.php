@@ -32,7 +32,7 @@
            <li style="color:#fff"><?php echo $greeting; ?></li>
          </ul>
        </div>
-    </nav>
+    </nav> <!-- The Navigation bar -->
   </header>
 
     <div class="story-tell-profile" style="margin: 0 auto; width: 1000px; margin-top: 50px;">
@@ -41,7 +41,7 @@
             <h3 class="text-secondary mb-1" style="margin-left: 15px;">Profile</h3>
             <div class="main-body">
                 
-                  <!-- /Breadcrumb -->
+                  <!-- admin profile -->
             
                   <div class="row gutters-sm">
                     <div class="col-md-4 mb-3">
@@ -99,7 +99,7 @@
                     </div>
 
                     
-                  </div>
+                  </div> <!-- admin profile -->
                 </div>
             </div>
         
@@ -114,10 +114,9 @@
 
    <div class="footer2">
 
+      <!-- the footer -->
     <footer class="text-center text-white " style="background-color: rgb(49, 49, 49); margin-top: 50px;">
-        <!-- Grid container -->
 
-        <!-- Grid container -->
       
         <!-- Copyright -->
         <div class="text-center p-3">
@@ -133,7 +132,7 @@
           <a class="text-white" href="../about.html">Charles Odum | Intranet Systems Development</a>
         </div>
         <!-- Copyright -->
-      </footer>
+      </footer> <!-- the footer -->
 
     
 

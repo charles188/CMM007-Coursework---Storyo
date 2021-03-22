@@ -32,9 +32,10 @@
             <?php } ?>
          </ul>
        </div>
-    </nav>
+    </nav> <!-- The Navigation bar -->
   </header>
 
+  
 <div class="bottom-nav">
   <div class="wrapper">
     <p>Explore new stories</p>
@@ -47,7 +48,7 @@
       <input type="text" placeholder="What are you looking for?" 
       name="search" value="<?php if(isset($_SESSION['search'])) htmlout($_SESSION['search'])?>">
       <button type="submit" name="searchpost"><i class="fa fa-search"></i></button>
-    </form>
+    </form> <!-- The search form -->
     
     <div class="topbutton">
       <a href="?getstarted" class="button button1">Get Started</a>
@@ -91,7 +92,7 @@
       </th>
       </tr>
       </table>
-    </div>
+    </div> <!-- The Filter bar -->
 
 <!-- The section for story posts -->
    <section class="section-container" style="margin-bottom: 30px;">
@@ -120,7 +121,7 @@
       
    </section>
 
-   <!-- The filter tags aside -->
+   <!-- The aside -->
    <aside class="aside1">
 
     <div class="tags">
@@ -154,15 +155,8 @@
       </ul>
     </div>
 
-   </aside>
-  <!-- The recommended stories aside -->
-   <aside class="aside1">
-    
-  </aside>
-  <!-- The footer aside -->
-  <aside class="aside2">
-    
-  </aside>
+   </aside> <!-- The aside -->
+
   
 </div>
 

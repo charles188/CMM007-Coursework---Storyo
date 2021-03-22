@@ -2,7 +2,7 @@
 ini_set( "display_errors", 1 );
 session_start();
 
-// user login check
+// check if user is logged in
 if (!isset($_SESSION['email'])) {
     $home_url = '../';
     $signup_url = '../signup.html';
@@ -19,7 +19,7 @@ if ($_SESSION['usertype'] !== "A") {
     exit();
 } 
 
-//logging out
+//log out
 if (isset($_POST['action']) and $_POST['action'] == 'logout'){
     session_unset();
     header('Location: ' . $_POST['goto']);

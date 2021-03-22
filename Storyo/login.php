@@ -1,6 +1,6 @@
 <?php
 
-include("assets/dbConnect.php"); //Establishing connection with our database
+include("assets/dbConnect.php"); //Connect with database
 session_start();
 
 if(empty($_POST["email"]) || empty($_POST["password"])) 

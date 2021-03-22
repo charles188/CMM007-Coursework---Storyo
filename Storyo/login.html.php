@@ -29,7 +29,7 @@
            <li><a href="about.html">Our Story</a></li>
          </ul>
        </div>
-    </nav>
+    </nav> <!-- The Navigation bar -->
   </header>
 
     <div class="story-tell-profile" style="margin: 0 auto; width: 1000px; margin-top: 50px;">
@@ -37,7 +37,7 @@
         <div class="container">
             <div class="main-body">
                 
-                  <!-- /sign in -->
+                  <!-- /sign in form-->
             
                   <div class="row">
                     <div class="col-6 card" style="padding: 30px; align-items: center; max-width: 400px; margin-left: 70px;"> 
@@ -75,7 +75,7 @@
                         <p style="text-align:center;"> forgot your password? <a href="<?php if(!isset($password_url)) { $password_url = 'reset_password'; } htmlout($password_url) ?>" style="color:rgb(9, 109, 209)">Click Here</a>.</p>
                       </form>
 
-                  </div> <!-- /sign in -->
+                  </div> <!-- /sign in form-->
                     
                   </div>
                 </div>
@@ -87,13 +87,10 @@
 
 
 
-
+    <!-- the footer -->                      
    <div class="footer2">
 
     <footer class="text-center text-white " style="background-color: rgb(49, 49, 49); margin-top: 50px;">
-        <!-- Grid container -->
-
-        <!-- Grid container -->
       
         <!-- Copyright -->
         <div class="text-center p-3">
@@ -109,7 +106,7 @@
           <a class="text-white" href="about.html">Charles Odum | Intranet Systems Development</a>
         </div>
         <!-- Copyright -->
-      </footer>
+      </footer> <!-- the footer -->
 
     
 

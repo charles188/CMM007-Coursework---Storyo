@@ -2,7 +2,7 @@
 ini_set( "display_errors", 1 );
 session_start();
 
-// user login check
+// check if user is logged in
 if (!isset($_SESSION['email'])) {
   $home_url = '../';
   $signup_url = '../signup.html';
@@ -12,14 +12,14 @@ if (!isset($_SESSION['email'])) {
 	exit();
 } 
 
-//check usertype
+//check the usertype
 if (isset($_SESSION['usertype']) && $_SESSION['usertype'] !== "B") {
   $error = "Only Story Teller can access this page";
   include '../accessdenied.html.php'; 
   exit();
 } 
 
-//logging out
+//log out
 if (isset($_POST['action']) and $_POST['action'] == 'logout'){
   session_unset();
   header('Location: ' . $_POST['goto']);
