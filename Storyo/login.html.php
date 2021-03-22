@@ -72,7 +72,7 @@
                         <button type="submit" class="btn btn-primary btn-block" value="Login"style="margin-top: 25px; margin-bottom: 25px;  width: 80px;">Sign in</button>
 
                         <p style="text-align:center;"> Don't have an account? <a href="<?php if(!isset($signup_url)) { $signup_url = 'signup.html'; } htmlout($signup_url) ?>" style="color:rgb(9, 109, 209)">Sign Up Here</a>.</p>
-                        <p style="text-align:center;"> forgot your password? <a href="<?php if(!isset($password_url)) { $password_url = 'reset_password'; } htmlout($password_url) ?>" style="color:rgb(9, 109, 209)">Click Here</a>.</p>
+                        
                       </form>
 
                   </div> <!-- /sign in form-->
