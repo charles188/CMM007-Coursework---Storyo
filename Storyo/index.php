@@ -28,7 +28,6 @@ if(isset($_GET['getstarted'])){
 }
 // search post
 if(isset($_POST['searchpost'])){
-echo "serach post";
   $search = $_POST['search'];
   $_SESSION['search'] = $search;
   if($search == '') {

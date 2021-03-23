@@ -76,7 +76,7 @@
 
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5 card" style="width: 415px; padding: 25px; margin-left: 120px;">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            <form action="mail.php" method="post">
 
                 <!--Grid row-->
                 <div class="row">
@@ -128,12 +128,12 @@
                     </div>
                 </div> <!--Grid row-->
                 
-
+                <div class="text-center text-md-left">
+                  <button class="btn btn-primary" type="submit" value="submit" style="margin-top: 20px; width: 80px;">Send</button>
+              </div>
             </form>
 
-            <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();" style="margin-top: 20px; width: 80px;">Send</a>
-            </div>
+            
             <div class="status"></div>
         </div> <!--Grid column-->
         

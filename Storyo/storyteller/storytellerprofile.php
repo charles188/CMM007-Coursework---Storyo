@@ -87,6 +87,10 @@
                                   <option value="Aberdeen">Aberdeen</option>
                                   <option value="Cairo">Cairo</option>
                                   <option value="Ghuanzhou">Ghuanzhou</option>
+                                  <option value="Glasgow">Glasgow</option>
+                                  <option value="Columbus">Columbus</option>
+                                  <option value="New York">New York</option>
+                                  <option value="New Castle">New Castle</option>
                                 </select>
                             </div>
                           </div>
@@ -104,8 +108,7 @@
                                   <option value="Science">Science</option>
                                   <option value="Horror">Horror</option>
                                   <option value="Record Breaking">Record Breaking</option>
-                                  <option value="Biography">Biography</option>
-                                  <option value="Religion">Religion and Memoirs</option>
+                                  <option value="Biography and Memoirs">Biography and Memoirs</option>
                                 </select>
                             </div>
                           </div>

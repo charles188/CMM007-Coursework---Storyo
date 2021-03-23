@@ -70,8 +70,12 @@
             <option value="Aberdeen">Aberdeen</option>
             <option value="Cairo">Cairo</option>
           <option value="Ghuanzhou">Ghuanzhou</option>
+          <option value="Glasgow">Glasgow</option>
+          <option value="Columbus">Columbus</option>
+          <option value="New York">New York</option>
+          <option value="New Castle">New Castle</option>
         </select>
-        <button type="submit" name="postlocation" style="width: 50px; font-size: 17px; padding: 5px; margin-right: 100px;">Sort</button>
+        <button type="submit" name="postlocation" style="width: 50px; font-size: 17px; padding: 5px; margin-right: 100px;">Filter</button>
       </form>
       </th>
       <th>
@@ -85,9 +89,9 @@
         <option value="Science">Science</option>
         <option value="Horror">Horror</option>
         <option value="Record Breaking">Record Breaking</option>
-        <option value="Biography">Biography and Memoirs</option>
+        <option value="Biography and Memoirs<">Biography and Memoirs</option>
       </select>
-      <button type="submit" name="postcategory" style="width: 50px; font-size: 17px; padding: 5px;">Sort</button>
+      <button type="submit" name="postcategory" style="width: 50px; font-size: 17px; padding: 5px;">Filter</button>
       </form>
       </th>
       </tr>

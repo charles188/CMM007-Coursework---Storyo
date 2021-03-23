@@ -94,7 +94,7 @@ if(isset($_POST['publish'])){
                   $pstmt = $db->prepare($post_query);
                   $pstmt->bind_param('iisssss', $userid,$mediaid,$title,$description,$story,$location,$category);
                   if($pstmt->execute()) {
-                    $_SESSION['message'] = "Post successfully published, wait at 24hrs for the post to be approved";
+                    $_SESSION['message'] = "Post successfully published, your story may be approved within 48 hours";
                     $pstmt->close();
                     $stmt->close();
                   }else{
